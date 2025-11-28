@@ -27,7 +27,11 @@ import { cn } from '@/lib/utils';
 
 const homeFaqs = [
   {
+<<<<<<< HEAD
     question: "Is FreeBg completely free to use?",
+=======
+    question: "Is PixelPro completely free to use?",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
     answer: "Yes, all our image editing tools, including the background remover, image compressor, and AI upscaler, are completely free. There are no hidden charges or subscriptions."
   },
   {

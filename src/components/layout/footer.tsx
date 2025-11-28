@@ -9,7 +9,11 @@ export function Footer() {
         <div className="flex flex-col items-start space-y-4">
           <Link href="/" className="flex items-center space-x-2">
             <Mountain className="h-6 w-6 text-primary" />
+<<<<<<< HEAD
             <span className="text-lg font-bold">FreeBg</span>
+=======
+            <span className="text-lg font-bold">PixelPro</span>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </Link>
           <p className="text-sm text-muted-foreground">
             Edit images with the power of AI. Simple, fast, and effective.
@@ -84,7 +88,11 @@ export function Footer() {
       </div>
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 border-t px-4 py-6 md:flex-row md:px-6">
         <p className="text-sm text-muted-foreground">
+<<<<<<< HEAD
           © {new Date().getFullYear()} FreeBg. All rights reserved.
+=======
+          © {new Date().getFullYear()} PixelPro. All rights reserved.
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
         </p>
         <div className="flex items-center space-x-4">
           <Link href="#" className="text-muted-foreground hover:text-foreground">

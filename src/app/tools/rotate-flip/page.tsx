@@ -153,7 +153,11 @@ export default function RotateFlipPage() {
     const dataUrl = canvas.toDataURL('image/png');
     const a = document.createElement('a');
     a.href = dataUrl;
+<<<<<<< HEAD
     a.download = `freebg_rotated_${originalFile?.name || 'image.png'}`;
+=======
+    a.download = `pixelpro_rotated_${originalFile?.name || 'image.png'}`;
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

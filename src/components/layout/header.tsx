@@ -28,7 +28,11 @@ export function Header() {
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Mountain className="h-6 w-6 text-primary" />
+<<<<<<< HEAD
             <span className="hidden font-bold sm:inline-block">FreeBg</span>
+=======
+            <span className="hidden font-bold sm:inline-block">PixelPro</span>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <DropdownMenu>
@@ -74,7 +78,11 @@ export function Header() {
         <div className="flex w-full items-center justify-between md:hidden">
            <Link href="/" className="flex items-center space-x-2">
             <Mountain className="h-6 w-6 text-primary" />
+<<<<<<< HEAD
             <span className="font-bold">FreeBg</span>
+=======
+            <span className="font-bold">PixelPro</span>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </Link>
           <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
             <SheetTrigger asChild>
@@ -91,7 +99,11 @@ export function Header() {
                 <div className="flex items-center justify-between p-4 border-b">
                    <Link href="/" onClick={closeMobileMenu} className="flex items-center space-x-2">
                     <Mountain className="h-6 w-6 text-primary" />
+<<<<<<< HEAD
                     <span className="font-bold">FreeBg</span>
+=======
+                    <span className="font-bold">PixelPro</span>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
                   </Link>
                 </div>
                 <ScrollArea className="flex-grow">

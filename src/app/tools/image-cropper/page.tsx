@@ -190,7 +190,11 @@ export default function ImageCropperPage() {
              if (croppedImageUrl) {
                  const a = document.createElement('a');
                  a.href = croppedImageUrl;
+<<<<<<< HEAD
                  a.download = `freebg_cropped_${originalFile?.name || 'image.png'}`;
+=======
+                 a.download = `pixelpro_cropped_${originalFile?.name || 'image.png'}`;
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
                  document.body.appendChild(a);
                  a.click();
                  document.body.removeChild(a);
@@ -200,7 +204,11 @@ export default function ImageCropperPage() {
     }
     const a = document.createElement('a');
     a.href = croppedImageUrl;
+<<<<<<< HEAD
     a.download = `freebg_cropped_${originalFile?.name || 'image.png'}`;
+=======
+    a.download = `pixelpro_cropped_${originalFile?.name || 'image.png'}`;
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

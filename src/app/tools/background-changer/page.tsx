@@ -131,7 +131,11 @@ export default function BackgroundChangerPage() {
     if (!processedImageUrl) return;
     const a = document.createElement('a');
     a.href = processedImageUrl;
+<<<<<<< HEAD
     a.download = `freebg_bg_changed_${foregroundFile?.name || 'image'}.png`;
+=======
+    a.download = `pixelpro_bg_changed_${foregroundFile?.name || 'image'}.png`;
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -330,4 +334,8 @@ export default function BackgroundChangerPage() {
   );
 }
 
+<<<<<<< HEAD
     
+=======
+    
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477

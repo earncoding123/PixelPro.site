@@ -1,11 +1,19 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: "Free Image Format Converter | JPG, PNG, WebP | FreeBg",
   description: "Instantly convert your images to JPG, PNG, or WebP formats for free. Adjust quality for the perfect balance of file size and clarity. All processing is done in your browser for privacy.",
   keywords: ["image converter", "format converter", "jpg to png", "png to jpg", "webp converter", "convert image online", "free image converter", "client-side converter"],
   openGraph: {
     title: "Free Image Format Converter | JPG, PNG, WebP | FreeBg",
+=======
+  title: "Free Image Format Converter | JPG, PNG, WebP | PixelPro",
+  description: "Instantly convert your images to JPG, PNG, or WebP formats for free. Adjust quality for the perfect balance of file size and clarity. All processing is done in your browser for privacy.",
+  keywords: ["image converter", "format converter", "jpg to png", "png to jpg", "webp converter", "convert image online", "free image converter", "client-side converter"],
+  openGraph: {
+    title: "Free Image Format Converter | JPG, PNG, WebP | PixelPro",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
     description: "Instantly convert your images to JPG, PNG, or WebP formats for free. Adjust quality for the perfect balance of file size and clarity. All processing is done in your browser."
   }
 };

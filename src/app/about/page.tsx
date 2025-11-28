@@ -12,7 +12,11 @@ export default function AboutPage() {
         transition={{ duration: 0.5 }}
         className="text-center mb-12"
       >
+<<<<<<< HEAD
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 font-headline">About FreeBg</h1>
+=======
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 font-headline">About PixelPro</h1>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
           We are on a mission to make professional-grade image editing accessible to everyone through the power of artificial intelligence.
         </p>
@@ -27,7 +31,11 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-bold mb-4 font-headline">Our Vision</h2>
           <p className="text-muted-foreground mb-4">
+<<<<<<< HEAD
             FreeBg was born from a simple idea: creative potential shouldn't be limited by complex software or tedious manual tasks. We envision a world where anyone, from professional photographers to small business owners and social media enthusiasts, can create stunning visuals in just a few clicks.
+=======
+            PixelPro was born from a simple idea: creative potential shouldn't be limited by complex software or tedious manual tasks. We envision a world where anyone, from professional photographers to small business owners and social media enthusiasts, can create stunning visuals in just a few clicks.
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </p>
           <p className="text-muted-foreground">
             Our team of developers, designers, and AI researchers are passionate about building intuitive tools that automate the most time-consuming parts of image editing, allowing you to focus on what matters most—your creativity.

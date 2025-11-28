@@ -140,7 +140,11 @@ export default function ImageResizerPage() {
 
       const a = document.createElement('a');
       a.href = dataUrl;
+<<<<<<< HEAD
       a.download = `freebg_resized_${originalFile.name}`;
+=======
+      a.download = `pixelpro_resized_${originalFile.name}`;
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

@@ -27,7 +27,11 @@
     {
       "id": "background-change-before",
       "description": "A car on a street.",
+<<<<<<< HEAD
       "imageUrl": "https://i.postimg.cc/63nP5LbK/5.png",
+=======
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       "imageHint": "sports car"
     },
     {
@@ -51,7 +55,11 @@
     {
       "id": "crop-before",
       "description": "A wide shot of a dog in a field.",
+<<<<<<< HEAD
       "imageUrl": "https://i.postimg.cc/63nP5LbK/5.png",
+=======
+      "imageUrl": "https://i.postimg.cc/xjgDzbz5/photo_1552519507_da3b142c6e3d_removebg_preview.png",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       "imageHint": "happy dog"
     },
     {
@@ -135,7 +143,11 @@
     {
       "id": "meme-before",
       "description": "A picture of a car.",
+<<<<<<< HEAD
       "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+=======
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       "imageHint": "funny car"
     },
     {
@@ -165,7 +177,11 @@
     {
       "id": "social-after",
       "description": "A landscape photograph resized for a social media post.",
+<<<<<<< HEAD
       "imageUrl": "https://i.postimg.cc/QdgtPZxf/pixelpro-social-photo_1552519507_da3b142c6e3d.png",
+=======
+      "imageUrl": "https://i.postimg.cc/QdgtPZxf/pixelpro_social_photo_1552519507_da3b142c6e3d.png",
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       "imageHint": "social media post"
     },
     {

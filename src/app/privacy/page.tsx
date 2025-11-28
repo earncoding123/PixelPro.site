@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { motion } from 'framer-motion';
@@ -10,6 +11,14 @@ export default function PrivacyPolicyPage() {
     setLastUpdated(new Date().toLocaleDateString());
   }, []);
 
+=======
+
+'use client';
+
+import { motion } from 'framer-motion';
+
+export default function PrivacyPolicyPage() {
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
   return (
     <div className="container mx-auto px-4 py-16">
       <motion.div
@@ -19,14 +28,22 @@ export default function PrivacyPolicyPage() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 font-headline">Privacy Policy</h1>
+<<<<<<< HEAD
         <p className="text-lg md:text-xl text-muted-foreground">Last Updated: {lastUpdated}</p>
+=======
+        <p className="text-lg md:text-xl text-muted-foreground">Last Updated: {new Date().toLocaleDateString()}</p>
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       </motion.div>
 
       <div className="max-w-4xl mx-auto space-y-8 text-muted-foreground">
         <section>
           <h2 className="text-2xl font-bold mb-4 text-foreground">1. Introduction</h2>
           <p>
+<<<<<<< HEAD
             Welcome to FreeBg. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
+=======
+            Welcome to PixelPro. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </p>
         </section>
 
@@ -61,7 +78,11 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="text-2xl font-bold mb-4 text-foreground">6. Contact Us</h2>
           <p>
+<<<<<<< HEAD
             If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@freebg.site" className="text-primary hover:underline">support@freebg.site</a>.
+=======
+            If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@pixelpro.site" className="text-primary hover:underline">support@pixelpro.site</a>.
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
           </p>
         </section>
       </div>

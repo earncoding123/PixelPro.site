@@ -17,6 +17,7 @@ const fontBody = Inter({
   variable: '--font-body',
 });
 
+<<<<<<< HEAD
 const siteUrl = 'https://freebg.site';
 
 export const metadata: Metadata = {
@@ -82,6 +83,11 @@ const jsonLd = {
     price: '0',
     priceCurrency: 'USD',
   },
+=======
+export const metadata: Metadata = {
+  title: 'PixelPro - AI Image Editor',
+  description: 'A suite of AI-powered image editing tools including background removal, compression, upscaling, and more.',
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
 };
 
 export default function RootLayout({
@@ -91,12 +97,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
+<<<<<<< HEAD
        <head>
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
+=======
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
       <body 
         className={cn(
           'font-body antialiased flex flex-col min-h-screen bg-secondary',

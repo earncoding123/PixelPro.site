@@ -48,8 +48,13 @@ export default function ContactPage() {
               <Mail className="w-6 h-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Email</h3>
+<<<<<<< HEAD
                 <a href="mailto:support@freebg.site" className="text-muted-foreground hover:text-primary transition-colors">
                   support@freebg.site
+=======
+                <a href="mailto:support@pixelpro.site" className="text-muted-foreground hover:text-primary transition-colors">
+                  support@pixelpro.site
+>>>>>>> 3d22b1f70e46f9b27876a64621858138cbc3d477
                 </a>
               </div>
             </div>
