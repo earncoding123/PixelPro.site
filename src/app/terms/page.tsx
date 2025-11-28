@@ -56,7 +56,7 @@ export default function TermsOfServicePage() {
           <h2 className="text-2xl font-bold mb-4 text-foreground">6. Changes to Terms</h2>
           <p>
             We reserve the right to modify these terms at any time. Your continued use of the service after any such changes constitutes your acceptance of the new terms.
-          p>
+         </p>
         </section>
       </div>
     </div>
