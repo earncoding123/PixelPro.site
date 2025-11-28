@@ -1,0 +1,173 @@
+
+import {
+  Scissors,
+  Shrink,
+  Sparkles,
+  Paintbrush,
+  Scaling,
+  FlipHorizontal,
+  Crop,
+  type LucideIcon,
+  RefreshCw,
+  RectangleHorizontal,
+  Frame,
+  Type,
+  LayoutGrid,
+  Share2,
+  Layers,
+  Star,
+  Film,
+  Award,
+  Trash2,
+} from 'lucide-react';
+
+export type Tool = {
+  name: string;
+  description: string;
+  href: string;
+  icon: LucideIcon;
+  beforeImage: string;
+  afterImage: string;
+  disabled?: boolean;
+};
+
+export const TOOLS: Tool[] = [
+  {
+    name: 'Background Remover',
+    description: 'Instantly remove the background from any image with a single click.',
+    href: '/tools/background-remover',
+    icon: Scissors,
+    beforeImage: 'person-before',
+    afterImage: 'person-after',
+  },
+  {
+    name: 'Background Changer',
+    description: 'Swap out the background for a solid color or a completely new scene.',
+    href: '/tools/background-changer',
+    icon: FlipHorizontal,
+    beforeImage: 'background-change-before',
+    afterImage: 'background-change-after',
+  },
+  {
+    name: 'Image Compressor',
+    description: 'Reduce file size without losing quality to speed up your website or save space.',
+    href: '/tools/image-compressor',
+    icon: Shrink,
+    beforeImage: 'compress-before',
+    afterImage: 'compress-after',
+  },
+    {
+    name: 'Image Cropper',
+    description: 'Crop images to the perfect size with preset ratios for social media and more.',
+    href: '/tools/image-cropper',
+    icon: Crop,
+    beforeImage: 'crop-before',
+    afterImage: 'crop-after',
+  },
+  {
+    name: 'AI Upscaler',
+    description: 'Enlarge images and enhance details with AI, making them sharper and clearer.',
+    href: '/tools/image-upscaler',
+    icon: Sparkles,
+    beforeImage: 'upscale-before',
+    afterImage: 'upscale-after',
+  },
+  {
+    name: 'Manual Enhancer',
+    description: 'Fine-tune brightness, contrast, saturation and more to get the perfect look.',
+    href: '/tools/manual-enhancer',
+    icon: Paintbrush,
+    beforeImage: 'enhance-before',
+    afterImage: 'enhance-after',
+  },
+  {
+    name: 'Image Resizer',
+    description: 'Easily resize images to your desired dimensions for any use case.',
+    href: '/tools/image-resizer',
+    icon: Scaling,
+    beforeImage: 'resize-before',
+    afterImage: 'resize-after',
+  },
+  {
+    name: 'Image Format Converter',
+    description: 'Convert images between JPG, PNG, and WebP formats with ease.',
+    href: '/tools/format-converter',
+    icon: RefreshCw,
+    beforeImage: 'format-before',
+    afterImage: 'format-after',
+  },
+  {
+    name: 'Rotate & Flip Tool',
+    description: 'Quickly rotate and flip your images horizontally or vertically.',
+    href: '/tools/rotate-flip',
+    icon: RectangleHorizontal,
+    beforeImage: 'rotate-before',
+    afterImage: 'rotate-after',
+  },
+  {
+    name: 'Borders & Frames',
+    description: 'Add custom borders and stylish frames to your photos.',
+    href: '/tools/borders-frames',
+    icon: Frame,
+    beforeImage: 'border-before',
+    afterImage: 'border-after',
+  },
+  {
+    name: 'Meme Generator',
+    description: 'Create hilarious memes with custom text on your own images.',
+    href: '/tools/meme-generator',
+    icon: Type,
+    beforeImage: 'meme-before',
+    afterImage: 'meme-after',
+  },
+  {
+    name: 'Collage Maker',
+    description: 'Combine multiple photos into a beautiful collage with various layouts.',
+    href: '/tools/collage-maker',
+    icon: LayoutGrid,
+    beforeImage: 'collage-before',
+    afterImage: 'collage-after',
+  },
+  {
+    name: 'Resize for Social Media',
+    description: 'Perfectly size images for social media with our ready-to-use presets.',
+    href: '/tools/resize-social',
+    icon: Share2,
+    beforeImage: 'social-before',
+    afterImage: 'social-after',
+  },
+  {
+    name: 'Simple Shadow Tool',
+    description: 'Add professional-looking shadows to your images with simple controls.',
+    href: '/tools/shadow-tool',
+    icon: Layers,
+    beforeImage: 'shadow-before',
+    afterImage: 'shadow-after',
+  },
+  {
+    name: 'Logo Extractor',
+    description: 'Isolate and extract logos from images with a transparent background.',
+    href: '/tools/logo-extractor',
+    icon: Star,
+    beforeImage: 'logo-before',
+    afterImage: 'logo-after',
+  },
+  {
+    name: 'Watermark Tool',
+    description: 'Protect your work by adding a custom watermark to your images.',
+    href: '/tools/watermark',
+    icon: Award,
+    beforeImage: 'watermark-before',
+    afterImage: 'watermark-after',
+    disabled: true,
+  },
+  {
+    name: 'Watermark Remover',
+    description: 'Remove watermarks from images using the power of AI.',
+    href: '/tools/watermark-remover',
+    icon: Trash2,
+    beforeImage: 'watermark-after',
+    afterImage: 'watermark-before',
+    disabled: true,
+  },
+];

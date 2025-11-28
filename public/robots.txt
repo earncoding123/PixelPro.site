@@ -1,0 +1,5 @@
+# Allow all crawlers complete access
+User-agent: *
+Allow: /
+
+Sitemap: https://freebg.site/sitemap.xml
