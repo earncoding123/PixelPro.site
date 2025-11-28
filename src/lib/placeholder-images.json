@@ -1,0 +1,208 @@
+{
+  "placeholderImages": [
+    {
+      "id": "person-before",
+      "description": "A person standing in front of a city background.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person city"
+    },
+    {
+      "id": "person-after",
+      "description": "A person with the background removed.",
+      "imageUrl": "https://i.postimg.cc/tgqGxmwn/2.png",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "car-before",
+      "description": "A car on a street.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports car"
+    },
+    {
+      "id": "car-after",
+      "description": "A car with the background removed.",
+      "imageUrl": "https://i.postimg.cc/tgqGxmwn/2.png",
+      "imageHint": "sports car"
+    },
+    {
+      "id": "background-change-before",
+      "description": "A car on a street.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports car"
+    },
+    {
+      "id": "background-change-after",
+      "description": "A car with a new background.",
+      "imageUrl": "https://i.postimg.cc/xjgDzbz5/photo-1552519507-da3b142c6e3d-removebg-preview.png",
+      "imageHint": "car studio"
+    },
+    {
+      "id": "compress-before",
+      "description": "A high-resolution image of a colorful bird.",
+      "imageUrl": "https://i.postimg.cc/G3ZX5LGY/9.png",
+      "imageHint": "colorful bird"
+    },
+    {
+      "id": "compress-after",
+      "description": "A compressed image of a colorful bird.",
+      "imageUrl": "https://i.postimg.cc/L6KSRMj1/6.png",
+      "imageHint": "colorful bird"
+    },
+    {
+      "id": "crop-before",
+      "description": "A wide shot of a dog in a field.",
+      "imageUrl": "https://i.postimg.cc/xjgDzbz5/photo_1552519507_da3b142c6e3d_removebg_preview.png",
+      "imageHint": "happy dog"
+    },
+    {
+      "id": "crop-after",
+      "description": "A cropped, square image of a dog's face.",
+      "imageUrl": "https://i.postimg.cc/HkF4v3fv/7.png",
+      "imageHint": "dog face"
+    },
+    {
+      "id": "upscale-before",
+      "description": "A low-resolution image of a flower.",
+      "imageUrl": "https://i.postimg.cc/Pf84Zg92/pixelpro-resized-photo-1587304189889-6c57ea91ba04.jpg",
+      "imageHint": "pixelated flower"
+    },
+    {
+      "id": "upscale-after",
+      "description": "An AI-upscaled, high-resolution image of a flower.",
+      "imageUrl": "https://i.postimg.cc/7LFCyW98/pixelpro-resized-photo-1587304189889-6c57ea91ba04-processed.png",
+      "imageHint": "hd flower"
+    },
+    {
+      "id": "enhance-before",
+      "description": "A dull, unedited photo of a landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&q=80&sat=-100",
+      "imageHint": "dull landscape"
+    },
+    {
+      "id": "enhance-after",
+      "description": "A vibrant, enhanced photo of a landscape.",
+      "imageUrl": "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=800&q=80",
+      "imageHint": "vibrant landscape"
+    },
+    {
+      "id": "resize-before",
+      "description": "A large photo of a car.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car"
+    },
+    {
+      "id": "resize-after",
+      "description": "A small, resized photo of a car.",
+      "imageUrl": "https://i.postimg.cc/y8QK9335/pixelpro-resized-photo-1552519507-da3b142c6e3d.jpg",
+      "imageHint": "car small"
+    },
+    {
+      "id": "format-before",
+      "description": "Image of a colorful chameleon.",
+      "imageUrl": "https://images.unsplash.com/photo-1561023766-d35b36cb6a27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGFtZWxlb24lMjBjb2xvcmZ1bHxlbnwwfHx8fDE3NjQxNjU3NzR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "chameleon colorful"
+    },
+    {
+      "id": "format-after",
+      "description": "Image of a colorful chameleon in a different format.",
+      "imageUrl": "https://images.unsplash.com/photo-1594476929262-ea9455d3a028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGFtZWxlb24lMjBhYnN0cmFjdHxlbnwwfHx8fDE3NjQxNjU3NzR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "chameleon abstract"
+    },
+    {
+      "id": "rotate-before",
+      "description": "An upright photo of a building.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "building architecture"
+    },
+    {
+      "id": "rotate-after",
+      "description": "A rotated photo of a building.",
+      "imageUrl": "https://i.postimg.cc/NMzkZHfX/10.png",
+      "imageHint": "building rotated"
+    },
+    {
+      "id": "border-before",
+      "description": "A portrait of a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "border-after",
+      "description": "A portrait of a person with a frame.",
+      "imageUrl": "https://i.postimg.cc/TPd0DQWr/pixelpro-framed-photo-1552519507-da3b142c6e3d.png",
+      "imageHint": "person framed"
+    },
+    {
+      "id": "meme-before",
+      "description": "A picture of a car.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "funny car"
+    },
+    {
+      "id": "meme-after",
+      "description": "A meme created from a picture of a car.",
+      "imageUrl": "https://i.postimg.cc/mDC2Q39C/pixelpro-meme-photo-1552519507-da3b142c6e3d.png",
+      "imageHint": "car meme"
+    },
+    {
+      "id": "collage-before",
+      "description": "Several separate images.",
+      "imageUrl": "https://i.postimg.cc/rydY98QB/COLLAGE.png",
+      "imageHint": "photos collection"
+    },
+    {
+      "id": "collage-after",
+      "description": "A collage of several images.",
+      "imageUrl": "https://i.postimg.cc/SsPN8yDL/pixelpro-collage.png",
+      "imageHint": "photo collage"
+    },
+    {
+      "id": "social-before",
+      "description": "A landscape photograph.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "landscape photo"
+    },
+    {
+      "id": "social-after",
+      "description": "A landscape photograph resized for a social media post.",
+      "imageUrl": "https://i.postimg.cc/QdgtPZxf/pixelpro_social_photo_1552519507_da3b142c6e3d.png",
+      "imageHint": "social media post"
+    },
+    {
+      "id": "shadow-before",
+      "description": "A flat icon or object.",
+      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjYXJ8ZW58MHx8fHwxNzY0MDc0MjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flat icon"
+    },
+    {
+      "id": "shadow-after",
+      "description": "An icon with a drop shadow.",
+      "imageUrl": "https://i.postimg.cc/k41wv8Pk/pixelpro-shadow-photo-1552519507-da3b142c6e3d.png",
+      "imageHint": "icon shadow"
+    },
+    {
+      "id": "logo-before",
+      "description": "A product with a logo on it.",
+      "imageUrl": "https://images.unsplash.com/photo-1686812930049-9e14164fa8dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9kdWN0JTIwbG9nb3xlbnwwfHx8fDE3NjQxNjU3NzV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "product logo"
+    },
+    {
+      "id": "logo-after",
+      "description": "An extracted logo with a transparent background.",
+      "imageUrl": "https://i.postimg.cc/FRC5k7WZ/images.png",
+      "imageHint": "extracted logo"
+    },
+    {
+      "id": "watermark-before",
+      "description": "A clean image without a watermark.",
+      "imageUrl": "https://i.postimg.cc/pd1jdtbH/Get-Paid-Stock-com-69288334e430a.jpg",
+      "imageHint": "clean forest"
+    },
+    {
+      "id": "watermark-after",
+      "description": "An image with a watermark added.",
+      "imageUrl": "https://i.postimg.cc/15TbD8GW/stock-photo-forest-with-amazing-sun-coming-pst-the-trees-1619763226.jpg",
+      "imageHint": "watermarked forest"
+    }
+  ]
+}
